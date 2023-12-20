@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
-
+#ADD new comments
 # Load the pre-trained model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained('gpt2-large')
 model = AutoModelForCausalLM.from_pretrained('gpt2-large')
